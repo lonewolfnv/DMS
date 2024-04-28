@@ -1,0 +1,126 @@
+
+* {
+    font-family: "Poppins";
+}
+
+body {
+  background-image: url(business.png);
+  background-color: rgba(0, 0, 0, 0.9);
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+  .login-form img {
+    justify-content: center;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  /* Style the login form */
+  .login-form {
+    background-color: #fff;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    animation: slide-up 0.5s ease-in-out forwards;
+
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 13px;
+  }
+  
+  .login-form button {
+    
+    background-color: #d3503f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+.submit-btn {
+  display: inline-block;
+  text-align: center;
+}
+
+  .login-form button:hover {
+    background-color: #e01f1f; /* Hytec green color - darker shade on hover */
+  }
+
+  .container select {
+    width: 104%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+
+
+ form a{
+   text-decoration: none;
+   color: #d3503f;
+ }
+
+ form a:hover{
+   text-decoration: underline;
+ }
+ label[for="add-an-account"] {
+  display:block;
+  text-align: center;
+ }
+
+ 
